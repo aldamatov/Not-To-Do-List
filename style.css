@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, black, red, black);
+
+  color: white;
+  font-size: 2rem;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+[type="checkbox"] {
+  zoom: 2;
+}
+.form-box {
+  text-align: center;
+}
+form > input {
+  line-height: 2rem;
+  padding: 1rem;
+  border-radius: 7px;
+}
+.task-section,
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.to-do,
+.not-to-do {
+  min-width: 50%;
+  text-align: center;
+}
+
+hr {
+  margin: 2rem;
+}
